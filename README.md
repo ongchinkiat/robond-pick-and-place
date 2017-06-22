@@ -11,6 +11,8 @@ There are 9 different spawn location of the target object in the shelf.
 
 ### Kinematics Analysis 1: DH Parameters for Kuka KR210
 
+[[https://github.com//ongchinkiat/robond-pick-and-place/blob/master/figure1.jpg|alt=figure1.jpg]]
+
 The DH parameters are determined with the help of the diagram and the KR210 URDF file.
 
 | Parameter   |  Explanation  | Value |
