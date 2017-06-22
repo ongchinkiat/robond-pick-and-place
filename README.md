@@ -11,7 +11,9 @@ There are 9 different spawn location of the target object in the shelf.
 
 ### Kinematics Analysis 1: DH Parameters for Kuka KR210
 
-[[https://github.com//ongchinkiat/robond-pick-and-place/blob/master/figure1.jpg|alt=figure1.jpg]]
+![Figure 1](https://github.com/ongchinkiat/robond-pick-and-place/raw/master/figure1.jpg "Figure 1")
+
+
 
 The DH parameters are determined with the help of the diagram and the KR210 URDF file.
 
@@ -74,6 +76,8 @@ The transformation matrix is a combination of 4 operations (2 rotations and 2 tr
 3. Rotation along Z axis by theta<sub>i</sub>
 4. Translation along Z axis by d<sub>i-1</sub>
 
+![Figure 2](https://github.com/ongchinkiat/robond-pick-and-place/raw/master/figure3.jpg "Figure 2")
+
 
 ### Kinematics Analysis 3: Inverse Kinematics
 
@@ -99,6 +103,8 @@ theta<sub>1</sub> = atan2(W<sub>y</sub>, W<sub>x</sub>)
 Using theta<sub>1</sub>, we can determine the location of Origin 2 O<sub>2</sub>.
 
 Joint 2 and 3 angle theta<sub>2</sub> and theta<sub>3</sub> can be determined by visualising using the following diagram:
+
+![Figure 3](https://github.com/ongchinkiat/robond-pick-and-place/raw/master/figure2.jpg "Figure 3")
 
 The length of all 3 sides of the triangles are known:
 1. O<sub>2</sub>O<sub>3</sub> = a<sub>2</sub> = 1.25
